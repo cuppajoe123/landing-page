@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 100px;
+}
+
+li {
+    margin: 10px;
+}
+
+.left-side {
+    margin: 10px;
+    margin-left: 100px;
+}

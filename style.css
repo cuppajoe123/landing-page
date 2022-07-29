@@ -3,6 +3,8 @@
 body {
     margin: 0px;
     font-family: "Roboto";
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .header {
@@ -11,7 +13,7 @@ body {
     background-color: #1F2937;
 }
 
-.right-side {
+.header .right-side {
     display: flex;
     list-style-type: none;
     padding: 0px;
@@ -25,10 +27,36 @@ li {
     margin: 10px;
 }
 
-.left-side {
+.header .left-side {
     margin: 10px;
     margin-left: 100px;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
 }
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-content .left-side {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 40px;
+}
+
+.top-content .left-side button {
+    align-self: flex-start;
+}
+
+.top-content .left-side .top-content {
+    align-self: flex-start;
+}
+
+.top-content .right-side {
+    margin-right: 100px;
+}
+

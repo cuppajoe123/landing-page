@@ -177,5 +177,9 @@ button {
 
 .footer {
     margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
-
